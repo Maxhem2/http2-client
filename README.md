@@ -89,7 +89,7 @@ Different options will be used depending on the destination this method will get
   * Http/2.0
 
 ### HttpRequestManager
-By default this module exports a default request method the will try to detect the currect protocol to use (http2/http1.1/https1.1).
+By default this module exports a default request method the will try to detect the correct protocol to use (http2/http1.1/https1.1).
 However, you can always create different request manager with your specfic defaults and seperated cache.
 * options `<Object>`
     * keepH2ConnectionFor `<number>` Time to keep http2 connection after used last time. Default: 1000ms.
